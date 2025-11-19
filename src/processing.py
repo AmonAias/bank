@@ -18,3 +18,4 @@ def sort_by_date(data: list[dict], reverse: bool = True) -> list[dict]:
     :return: Отсортированный список операций
     """
     return sorted(data, key=lambda x: x["date"], reverse=reverse)
+
